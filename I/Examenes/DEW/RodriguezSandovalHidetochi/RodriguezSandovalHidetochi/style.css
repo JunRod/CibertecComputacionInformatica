@@ -1,0 +1,137 @@
+
+body {
+    background-color: blueviolet;
+    font-family: sans-serif;
+}
+
+.contenedorSuperior {
+    display: flex;
+    width: 80%;
+    margin: 30px auto 30px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorSuperior p {
+    font-size: 25px;
+    color: white;
+}
+
+.contenedorSuperior h1 {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+    margin-top: 0%;
+}
+
+.contenedorSuperior h1 img {
+    max-width:100%;
+}
+
+header img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+nav a {
+    font-size: 23px;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+
+main {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+main aside {
+    width: 35%;
+    padding: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    width: 50%;
+    padding: 5px;
+}
+
+main section figure{
+    display: flex;
+    
+    width: 77%;
+    margin: 10px 0;
+}
+
+main section figure img{
+    width: 77%;
+    margin: 10px auto;
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+footer p {
+    margin-right: 30px;
+}
+
+footer div {
+    margin: 0 0 0 20px;
+    display: flex;
+    gap: 20px;
+}
+
+footer div img {
+    margin: 10px 0 0 0 ;
+    height: 40px;
+    width: 40px;
+}
+
+.asideDerecha {
+    justify-content: center;
+}
+
+.asideDerecha form {
+    padding: 20px;
+    background-color: rgb(230, 47, 87);
+}
+
+.asideDerecha label{
+    color: white;
+    display: block;
+    font-size: 20px;
+}
+
+.asideDerecha label input{
+    display: block;
+    height: 30px;
+    width: 300px;
+}
+
+.asideDerecha button{
+    color: white;
+    background-color: rgb(230, 47, 87);
+    border-color: white;
+    margin: 10px;
+    height: 60px;
+    width: 90px;
+}
